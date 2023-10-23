@@ -1,0 +1,22 @@
+---
+title: "Quarto-Kroki"
+filters:
+  - kroki
+
+---
+
+## Kroki extension example
+
+This filter allows you to show diagrams.
+
+```{kroki-plantuml}
+class User {
+  -String id
+  -String name
+  +String name()
+}
+User <|-- SpecificUser
+```
+
+
+
