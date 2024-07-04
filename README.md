@@ -5,7 +5,7 @@ This extensions allows you to use a Kroki service to show diagrams.
 ## Installation
 
 ```bash
-quarto add GabrielCoffee9/quarto-kroki
+quarto add resepemb/quarto-kroki
 ```
 
 This will install the extension under the `_extensions` subdirectory.
