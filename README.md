@@ -40,6 +40,9 @@ You can also specify the image format you want: ``` {kroki-mermaid-png} ```.
 
 This is optional, the default format is SVG.
 
+> SVG is the default format because all diagram types are compatible with it, each diagram has specific formats that they are compatible with, for more information, see the [kroki diagram types and output formats](https://kroki.io/#support).
+
+
 ## Configs
 
 In case you need to consume a custom Kroki service, you can set in each file, or define a custom default:
@@ -93,9 +96,6 @@ class User {
 User <|-- SpecificUser
 ```
 ````
-
-> **Note** 
-> Configs are under development, this section may be updated soon !!!
 
 ## Example
 
